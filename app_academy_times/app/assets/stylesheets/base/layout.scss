@@ -6,31 +6,36 @@ html {
 }
 
 body {
-	// ...
+  width: 80%;
+  margin: 0 auto;
+  font-family: $serif;
+  font-size: 12px;
 }
 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: $blue;
+	border: $dark-blue solid 1px;
+	color: #fff;
+	font-weight: 700;
+	padding: 5px 10px 5px 10px;
+	border-radius: 2px;
+  margin: auto;
+	text-align: justify;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $dark-blue;
+  border-color: $darkest-blue;
+  text-decoration: underline black;
 }
 
-/*
-	Header Rules
-*/
+header {
+  // padding: 10px 0 20px 0;
+}
+
+header a {
+  
+}
 
 hr {
 	border: 0;
@@ -40,10 +45,11 @@ hr {
 
 .hr-top, .hr-bottom {
 	width: 100%;
-	margin: 0;
+	margin: 10px;
 }
 
 .hr-top {
 	height: 2px;
+  // margin-top: 40px;
 	margin-bottom: 1px;
 }
